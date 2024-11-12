@@ -1,0 +1,233 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header .logo{
+    width: 10rem;
+    border-radius: 20px;
+}
+
+.title-header{
+    font-weight: 300;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.title-header p{
+    font-style: italic;
+    padding: 0px 0px 0px 5px;
+}
+
+.header-flex{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 0rem 1rem;
+}
+
+.header-flex .home{
+    display: flex;
+    align-items: center;
+}
+
+.header-flex .home p{
+    margin-left: 10px;
+    font-size: 20px;
+}
+
+.header-flex nav{
+    display: flex;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.landing-title {
+    width: 100%;
+    height: 100vh;
+    background: url(https://www.seguracontadores.com/wp-content/uploads/2024/02/Auditoria-general-3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    font-size: 9rem;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.landing-title p{
+    margin: 2rem;
+}
+
+.landing-page img {
+    object-fit: cover;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    top: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+a, nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+section {
+    padding: 20px;
+    margin: 20px 0;
+}
+
+section h2{
+    font-size: 2.5rem;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+
+section h3 {
+    font-size: 1.7rem;
+}
+
+section p {
+    font-size: 1.3rem;
+}
+
+#hero p {
+    background: #f4f4f4;
+    text-align: center;
+    margin: 0;
+    font-size: 24px;
+    line-height: normal;
+    font-style: italic;
+}
+
+footer {
+    text-align: center;
+    background: #333;
+    color: #fff;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+}
+
+.social-links{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.social-links a{
+    text-decoration: none;
+    color: white;
+}
+
+.social-link-row{
+    display: flex;
+    align-items: center;
+}
+
+.social-links .icon{
+    width: 1.5rem;
+    height: 1.5rem;
+    background: #fff;
+    padding: .3rem;
+    border-radius: 50%;
+    margin: .2rem .5rem;
+}
+
+.social-links img{
+    width: inherit;
+    height: inherit;
+    object-fit: cover;
+}
+
+.contact{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.team-member {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background: rgb(213,211,242);
+    background: linear-gradient(90deg, rgba(213,211,242,1) 0%, rgba(203,203,218,1) 56%, rgba(190,170,219,1) 100%);
+    margin: 1.5rem;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+.team-member-name {
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.team-member-position {
+    font-size: .9rem;
+    font-weight: 600;
+}
+
+.team-member-picture {
+    padding: 1rem;
+}
+
+.team-member-picture img{
+    width: 18rem;
+    height: 18rem;
+    object-fit: cover;
+    border-radius: 50%;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+.mission-vision-container{
+    display: flex;
+    text-align: justify;
+    margin: 0rem 2rem;
+}
+
+.mission-vision-container .spacer{
+    border: 2px solid black;
+    margin: 0px 5rem;
+}
+
+.mission-vision-container h3{
+    text-align: center;
+}
+
+.mission-vision-container .mission, .mission-vision-container .vision{
+    padding: 2rem 0px;
+}
+
+section#about{
+    margin: 0rem 5rem;
+}
